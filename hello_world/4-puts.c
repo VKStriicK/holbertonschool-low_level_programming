@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Function that prints somthing using puts
+ * main always should return 0
  */
 
 int main(void)
