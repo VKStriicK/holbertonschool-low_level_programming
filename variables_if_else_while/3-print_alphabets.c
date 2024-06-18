@@ -8,19 +8,18 @@
 
 int main(void)
 {
-        char alphabet = 'a';
-	char ALPHABET = 'A';
+        char alphabet, ALPHABET = 'a', 'A';
 
-        while (alphabet <= 'z')
-        {
-                putchar(alphabet);
-                alphabet++;
-        }
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
 	while (ALPHABET <= 'Z')
 	{
 		putchar(ALPHABET);
 		ALPHABET++;
 	}
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
