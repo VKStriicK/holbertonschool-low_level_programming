@@ -12,8 +12,9 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
-		putchar("%d\n", alphabet)
-		alphabet ++
+		putchar(alphabet);
+		alphabet ++;
 	}
+	putchar('\n');
 	return (0);
 }
