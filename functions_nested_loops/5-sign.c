@@ -26,7 +26,5 @@ int print_sign(int n)
 		_putchar('0');
 		r = -1;
 	}
-	_putchar(',');
-	_putchar(' ');
 	return (r);
 }
