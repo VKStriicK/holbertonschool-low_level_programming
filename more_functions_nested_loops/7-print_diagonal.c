@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Main function
- * @n: Number of \
+ * @n: Number of times \ will be written
  */
 
 void print_diagonal(int n)
