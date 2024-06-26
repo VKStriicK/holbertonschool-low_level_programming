@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_line - print n times _
  * @n: Number of times the character '_' is printed
  */
