@@ -6,7 +6,7 @@
  * @dest: The destination variable to copy
  * @src: The variable to copy
  *
- * Return : The pointer to dest
+ * Return: The pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
