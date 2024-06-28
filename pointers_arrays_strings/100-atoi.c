@@ -8,7 +8,7 @@
  * Return: The integer
  */
 
-int _atoi(chars *s)
+int _atoi(char *s)
 {
 	int lenght = 0;
 	int n = 0;
