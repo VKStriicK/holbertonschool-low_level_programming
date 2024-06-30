@@ -18,12 +18,12 @@ char *leet(char *s)
 	{
 		for (i = 0; numbers[i] != '\0'; i++)
 		{
-			if (s[i] == letters[i])
+			if (s[lenght] == letters[i])
 			{
-				s[i] = numbers[i];
+				s[lenght] = numbers[i];
 			}
 		}
-		i++;
+		lenght++;
 	}
 
 	return (s);
