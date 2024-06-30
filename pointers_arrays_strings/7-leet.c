@@ -18,7 +18,7 @@ char *leet(char *s)
 	{
 		for (i = 0; numbers[i] != '\0'; i++)
 		{
-			if (s[lenght] == letters[i])
+			if (s[lenght] == letters[i] || s[lenght] == letters[i] - 32)
 			{
 				s[lenght] = numbers[i];
 			}
