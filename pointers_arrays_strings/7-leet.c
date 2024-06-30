@@ -11,8 +11,8 @@ char *leet(char *s)
 {
 	char letters[] = {'a', 'e', 'o', 't', 'l'};
 	char numbers[] = {'4', '3', '0', '7', '1'};
-	char lenght = 0;
-	char i = 0;
+	int lenght = 0;
+	int i = 0;
 
 	while (s[lenght] != '\0')
 	{
