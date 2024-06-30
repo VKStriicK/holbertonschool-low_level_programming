@@ -6,7 +6,7 @@
  * @src: String to be concatenate
  * @n: Number of bytes from src
  *
- * Return: 
+ * Return: A pointer to @dest
  */
 
 char *_strncat(char *dest, char *src, int n)
