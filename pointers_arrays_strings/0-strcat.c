@@ -2,8 +2,8 @@
 
 /**
  * *_strcat - Main function
- * @*dest: String after being concatenate
- * @*src: String to be concatenate
+ * @dest: String after being concatenate
+ * @src: String to be concatenate
  *
  * Return: A pointer to @dest
  */
